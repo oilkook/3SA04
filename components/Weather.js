@@ -4,9 +4,9 @@ import Forecast from './Forecast';
 
 export default function Weather(props) {
     const [forecastInfo, setForecastInfo] = useState({
-        main: 'main',
-        description: 'description',
-        temp: 0,
+        main: 'THAILAND',
+        description: 'Phuket',
+        temp: 25,
     })
     return (
         <View>
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     cover: {
         backgroundColor: '#000', 
         width: '100%',
-        height: 300,
+        height: '50%',
         opacity: 0.5,
         justifyContent: 'center',
         alignItems: 'center',
