@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { View, Text, FlatList, TouchableHighlight,StyleSheet, ImageBackgroundComponent } from 'react-native';
+import { View, Text, FlatList, TouchableHighlight,StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 const availableZipItems = [
